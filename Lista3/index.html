@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML5 Puzzle</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="init();">
+    <main id="container">
+      <canvas id="scene"></canvas>
+      <form id="settings" action="/action_page.php">
+        <input
+          class="reset"
+          type="button"
+          onclick="resetGame()"
+          value="Reset"
+        />
+        <div class="columnflex">
+          <label for="columnsCount">Kolumny</label>
+          <input
+            class="input"
+            id="columnsCount"
+            name="columnsCount"
+            type="number"
+            value="3"
+            required
+          />
+          <label for="rowsCount">Wiersze</label>
+          <input
+            class="input"
+            id="rowsCount"
+            name="rowsCount"
+            type="number"
+            value="3"
+            required
+          />
+          <input
+            id="imageButton"
+            class="submit"
+            type="button"
+            onclick="toogleGallery()"
+            value="Image"
+          />
+          <input
+            class="submit"
+            type="button"
+            onclick="startNewGame()"
+            value="Submit"
+          />
+        </div>
+      </form>
+      <div id="gallery">
+        <img
+          src="resource/hydra.jpg"
+          class="galleryItem"
+          onclick="itemClick(this)"
+        />
+        <img
+          src="resource/forest.jpg"
+          class="galleryItem"
+          onclick="itemClick(this)"
+        />
+        <img
+          src="resource/crab.jpg"
+          class="galleryItem"
+          onclick="itemClick(this)"
+        />
+        <img
+          src="resource/volcano.jpg"
+          class="galleryItem"
+          onclick="itemClick(this)"
+        />
+        <img
+          src="resource/car.jpg"
+          class="galleryItem"
+          onclick="itemClick(this)"
+        />
+        <img
+          src="resource/forest2.jpg"
+          class="galleryItem"
+          onclick="itemClick(this)"
+        />
+        <img
+          src="resource/colors.jpg"
+          class="galleryItem"
+          onclick="itemClick(this)"
+        />
+        <img
+          src="resource/run.jpg"
+          class="galleryItem"
+          onclick="itemClick(this)"
+        />
+      </div>
+    </main>
+    <footer>Paweł Dychus 2019</footer>
+  </body>
+</html>

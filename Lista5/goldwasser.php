@@ -343,9 +343,11 @@ Otherwise reurn $s \cdot$JACOBI($n_1, a_1$)</pre>
         <?php } ?>
 
       </section>
+      <footer>© Copyright 2019 Paweł Dychus</footer>
     </article>
   </main>
-  <footer>© Copyright 2019 Paweł Dychus</footer>
+
+
 </body>
 
 </html>

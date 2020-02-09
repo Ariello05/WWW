@@ -76,7 +76,11 @@ session_start();
     }
     ?>
     <footer>
-      <?php include('counter.php') ?>
+      <small>
+        Korzystając z tej strony, wyrażasz zgodę na wykorzystanie plików cookies.
+      </small>
+      <div style="align-self:flex-end"><?php include('counter.php') ?></div>
+
     </footer>
   </article>
 </body>

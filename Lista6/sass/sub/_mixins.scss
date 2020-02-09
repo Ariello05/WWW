@@ -1,0 +1,34 @@
+@mixin maxw($canvas) {
+  @if map-has-key($breakpoints, $canvas) {
+    @media only screen and (max-width: map-get($breakpoints, $canvas)) {
+      @content;
+    }
+  }
+}
+
+@mixin minw($canvas) {
+  @if map-has-key($breakpoints, $canvas) {
+    @media only screen and (min-width: map-get($breakpoints, $canvas)) {
+      @content;
+    }
+  }
+}
+
+@mixin landscape($canvas) {
+  @if map-has-key($breakpoints, $canvas) {
+    @media only screen and (orientation: landscape) and (max-width: map-get($breakpoints, $canvas)) {
+      @content;
+    }
+  }
+}
+
+@mixin width_fontsize($width,$size) {
+  width:$width;
+  font-size:$size;
+}
+
+@mixin wmp($width,$margin,$padding) {
+  width:$width;
+  margin:$margin;
+  padding:$padding;
+}

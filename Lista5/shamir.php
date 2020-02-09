@@ -137,9 +137,12 @@ session_start();
         <?php } ?>
 
       </section>
+      <footer>© Copyright 2019 Paweł Dychus</footer>
     </article>
+
   </main>
-  <footer>© Copyright 2019 Paweł Dychus</footer>
+
+
 </body>
 
 </html>

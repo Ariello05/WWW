@@ -128,7 +128,6 @@ nav.sidenav > ul {
   justify-content: flex-start;
 }
 
-/*
 .sidenav a {
   padding: 6px 16px 6px 20px;
   text-decoration: none;
@@ -141,7 +140,7 @@ nav.sidenav > ul {
 .sidenav a:hover {
   color: #f1f1f1;
 }
-*/
+
 h1 {
   color: #ffffff;
   font-size: 2em;
@@ -310,5 +309,7 @@ div#demo span .MathJax {
 }
 
 footer {
-  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

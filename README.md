@@ -20,6 +20,8 @@ Simple tasks made for WWW course.
 ### Task 5
 * PHP - simple comment system + visit counter
 
+### Task 6
+* SCSS - change css from Task 2
 
 ## Authors
 

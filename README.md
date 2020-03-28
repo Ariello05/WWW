@@ -1,5 +1,6 @@
 # WWW
 Simple tasks made for WWW course.
+Be Advised! Code, especially JS is not of high quality! I am aware of that and given enough time/motivation will fix that.
 
 ## Tasks
 
